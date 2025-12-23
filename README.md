@@ -73,6 +73,61 @@ git push origin test
 git push origin bugfix
 git push origin experiment
 
+Open Project in VS Code
+code .
+
+First Commit
+git status
+git add index.html
+git commit -m "Initial commit with basic HTML structure"
+
+Checking Repository Status
+git status
+
+Adding Files to Staging Area
+git add style.css
+git commit -m "Added basic CSS styling"
+git add about.html
+git commit -m "Added about page"
+git add contact.html
+git commit -m "Added contact page"
+
+Viewing Commit History
+git log
+git log --oneline
+
+Creating and Switching Branches
+git branch feature
+git branch test
+git branch bugfix
+git branch experiment
+
+git checkout feature
+git checkout test
+git checkout bugfix
+git checkout experiment
+
+Merging Branches
+git checkout master
+git merge feature
+git merge test
+git merge bugfix
+
+Check Commit Count
+git log --oneline
+
+Connecting to Remote GitHub Repository
+git remote add origin https://github.com/Divya0Sharma/devops-git-project
+git branch -M main
+git push -u origin main
+
+Pushing Code to GitHub
+git push -u origin master
+git push origin feature
+git push origin test
+git push origin bugfix
+git push origin experiment
+
 ## Command Screenshots
 ![](screenshots/dev1.jpg)
 ![](screenshots/dev2.jpg)
