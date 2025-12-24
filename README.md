@@ -15,7 +15,6 @@ A simple application is used as the base to simulate real-world development acti
 - HTML, CSS
 
 ## Commands Used
-## Commands Used
 
 - Repository Initialization
 ```bash
